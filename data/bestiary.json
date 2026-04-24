@@ -1,0 +1,106 @@
+[
+    {
+        "name": "Tiger",
+        "hd": "6",
+        "ac": "15",
+        "mv": "15m",
+        "ml": "9",
+        "skill": "+3",
+        "save": "12+",
+        "t_target": 6,
+        "attacks": [
+            {
+                "name": "rend",
+                "atk": "+9x3",
+                "dmg": "1d6",
+                "tr_die": "1d6",
+                "tr_mult": "x3",
+                "shock": "3/-"
+            }
+        ]
+    },
+    {
+        "name": "Weak Yao Guai",
+        "hd": "3",
+        "ac": "14",
+        "mv": "10m",
+        "ml": "7",
+        "skill": "+2",
+        "save": "14+",
+        "t_target": 6,
+        "attacks": [
+            {
+                "name": "bite",
+                "atk": "+3",
+                "dmg": "1d6+1",
+                "tr_die": "1d6",
+                "tr_mult": "x2",
+                "shock": "-"
+            }
+        ]
+    },
+    {
+        "name": "Settler",
+        "hd": "1",
+        "ac": "10",
+        "mv": "10m",
+        "ml": "8",
+        "skill": "+0",
+        "save": "15+",
+        "t_target": 6,
+        "attacks": [
+            {
+                "name": "Club",
+                "atk": "+1",
+                "dmg": "1d4",
+                "range": "10/20",
+                "attr": "Str/Dex",
+                "tr_die": "1d6",
+                "tr_mult": "x3",
+                "shock": "1/ AC 15",
+                "enc": "1",
+                "tl": "0"
+            },
+            {
+                "name": "Light Pistol",
+                "dmg": "1d6",
+                "range": "10/80",
+                "mag": "15",
+                "attr": "Dex",
+                "tr_die": "1d8",
+                "tr_mult": "x2",
+                "tl": "3",
+                "enc": "1"
+            }
+        ]
+    },
+    {
+        "name": "Clanker, Security Bot",
+        "hd": "2",
+        "ac": "16",
+        "mv": "10m",
+        "ml": "10",
+        "skill": "+1",
+        "save": "14+",
+        "t_target": 6,
+        "attacks": [
+            {
+                "name": "strike",
+                "atk": "+2",
+                "dmg": "1d6"
+            },
+            {
+                "name": "Laser Pistol",
+                "atk": "+3",
+                "dmg": "1d6",
+                "range": "100/300",
+                "mag": "10",
+                "attr": "Dex",
+                "t_die": "1d6",
+                "t_rate": "x2",
+                "tl": "4",
+                "enc": "1"
+            }
+        ]
+    }
+]
