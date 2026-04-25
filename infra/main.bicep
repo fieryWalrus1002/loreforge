@@ -19,3 +19,22 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2023-01-01' = {
 
 output storageId string = storageAccount.id
 
+// Declare the Blob Container for bestiary data
+
+// 1. Define the 'Blob Service' (the engine that handles folders)
+resource blobService 'Microsoft.Storage/storageAccounts/blobServices@2023-01-01' = {
+  parent: storageAccount
+  name: 'default'
+}
+
+// 2. Define the 'Raw' Container (The Inbox)
+resource rawContainer 'Microsoft.Storage/storageAccounts/blobServices/containers@2023-01-01' = {
+  parent: blobService
+  name: 'raw-data'
+}
+
+// 3. Define the 'Processed' Container (The Outbox)
+resource processedContainer 'Microsoft.Storage/storageAccounts/blobServices/containers@2023-01-01' = {
+  parent: blobService
+  name: 'processed-data'
+}
