@@ -1,0 +1,94 @@
+# raw paste of the statblock from Ashes Without Number's robots page
+# Has the header statline, and each line after that is a line for a specific robot. 
+# You can grab the tag for each entry from the first entry on the header, Robots in this case. So 
+# the tag would be Robot.
+Robots
+The vast majority of bots in the zone function as ex-
+pert system bots, competent within their function but
+lacking any true general intelligence or self-awareness.
+Whenever a bot is called on to function outside its role,
+make a skill check using the bot’s skill modifier; if it
+fails, it tries to use its usual behavior even if such a
+behavior is inappropriate.
+Initial bot reactions will depend on their intended
+role. If programmed to attack their initial response
+will always be hostile, but other bots will react accord-
+ing to the Reaction Roll. The default response will
+be an attempt to behave as its programming dictates.
+Robots are self-powered and do not normally run
+out of ammunition for any weapons they have built in.
+Robot Types
+Brainbot: “Surplus” human neural tissue was salvaged
+to give these human-like bots a degree of inde-
+pendent intelligence in order to direct their sim-
+pler brethren. Long neglect and inadequate main-
+tenance has driven most of them quite insane.
+Clanker: These simple maintenance and labor bots are
+usually harmless, but a malicious programmer
+can convert them to minimally-adequate fight-
+ers. They are incapable of using weapons unless
+programmed to do so.
+Hellrider: Servants of the Territorial Rangers, these
+centauroid robots fight with a pair of integral
+pistols that have an effective range of 100 me-
+ters. They are skilled trackers, and a posse of
+2d6 of them inevitably accompany any ranger.
+Lone hellriders or small groups of 1d6 of them
+are sometimes found near Mandate installations,
+conducting endless patrols.
+Iron Horse: Chrome-maned equibots built to carry
+dudes who might not know how to sit a real horse,
+many of these bots have survived to bond with
+the lucky rider who can find their control cards
+or override their rental programming.
+Janglesnake: A corroded iron snake that burrows be-
+neath the dust, a janglesnake’s vibroblade teeth
+once flowed with a venom that has long since
+run dry. After a successful bite, however, a jan-
+glesnake gets a free constriction grapple attempt
+against the victim with a +3 total skill bonus.
+Juggernaut: Fearsome chariots of doom, a tank-sized
+juggernaut is normally found only within the Al-
+buquerque city core or guarding high-level Man-
+date facilities. It can run over creatures as part
+of its Move actions, forcing an Evasion save or
+instant death. Its onboard weapons have a 1,000
+meter range.
+Scorpoid: These wolf-sized metal scorpions often
+appear in packs of 1d4+1, skittering across the
+sands of the zone. They attack with two mono-
+blade claw attacks and one electrostatic “stinger”
+zap with a range of 10 meters. Only the claws do
+Shock damage.
+Scrabbler: One of a host of half-wrecked robots and
+malfunctioning machines, these limping wrecks
+are animated only by their undying purpose,
+which often happens to be mayhem. If not a sad,
+lone wreck, they are found in groups of 2d6.
+Tinman: These androids were built to resemble hu-
+mans, some of them with unsettling accuracy.
+Most were intended for human interaction of
+some sort, so they are among the most likely ro-
+bots to engage peacefully with modern survivors.
+Even so, they remain mere expert systems, and
+will often try to apply their original program-
+ming even when it is inappropriate.
+Vultron: Most flying robots were wiped out by the
+Bright Mirror defense system, but a few mod-
+els had acceptable verification codes. The buz-
+zard-like vultron was one of them, hovering with
+its black-feathered grav units and spitting lethal
+laser bolts at prey below. A vultron never flies
+higher than 30 meters above the ground.
+
+Robots HD AC Atk Dmg TR Shock MV ML Skill Save
+Brainbot 10 15 +10 3d6 laser d8/x3 - 10m 9 +3 10+
+Clanker 2 16 +2 1d6 strike - - 10m 10 +1 14+
+Hellrider 5 16 +8x2 2d6 shoot d8/x2 - 20m 12 +2 13+
+Iron Horse 6 16 +9x2 1d10 kick d8/x2 - 20m 10 +2 12+
+Janglesnake 4 18 +7* 2d6* bite d6/x3 5/AC 15 15m 10 +1 13+
+Juggernaut 15 20 +18x4 4d6 shoot d10/x3 - 20m 12 +3 8+
+Scorpoid 3 16 +5x3 1d8 claw d6/x3 2/AC 15 15m 10 +1 14+
+Scrabbler 1 14 +2 1d6 claw - - 10m 12 +1 15+
+Tinman 4 16 +6 By wpn By wpn By wpn 10m 8 +2 13+
+Vultron 3 16 +6 2d8 laser d8/x3 - 20m 9 +2 14+

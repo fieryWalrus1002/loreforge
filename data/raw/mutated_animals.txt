@@ -1,0 +1,193 @@
+# This is a two page spread. It includes descriptive text, interspersed with the
+# raw data for the monster stats that we want to parse!
+# This is a complicated task.
+Mutant Animals
+Most mutated fauna are merely deformed or sickly ver-
+sions of ordinary animal life. Some creatures, however,
+are cursed with exceptional and dangerous qualities by
+the strange energies that changed them.
+In the example setting of the Albuquerque Death
+Zone, many of these changes are the fruit of the mal-
+functioning Highshine civil defense system. The
+ambient nanites that were once meant to contain di-
+sasters and preserve human life were perverted by a
+maddened psychic, and now act to change victims in
+new and often terrible ways.
+Adjusting Animal Abilities
+The mutant animals listed here are only the more aver-
+age examples of their kind. Particularly strong or fee-
+ble creatures might have more or fewer hit dice, from
+twice as many to half as many, rounded up.
+Each additional hit die adds 1d8 hit points and a
++1 bonus to the creature’s hit bonus, while subtracting
+hit dice lowers their HP and gives them a -1 to hit for
+each one lost.
+Blinder Bird
+A Highshined owl derivative with a long, serrated beak
+and glass-sharp claws, a blinder bird has a special crav-
+ing for blood and a tendency to aim for a victim’s eyes.
+The bird swoops down silently to rake its unsuspecting
+prey before licking the blood or aqueous humour from
+its claws.
+Blinder birds are usually found in flocks of 1d8.
+Silent Strike: When encountered, the PC with the best
+Wis/Notice in the party must succeed in an op-
+posed skill check against the blinder bird’s flock
+leader. On a failure, the party is automatically
+surprised.
+Flaysnake
+This species of mutated, man-sized rattlesnake was
+cursed by the Highshine. Its altered genome prevents
+it from forming scales, leaving its body raw and red
+while the Highshine nanites force homeostasis and
+prevent it from dying of infection or fluid loss. The
+perpetual torment it experiences leaves it with a sav-
+age temper.
+Flaysnakes are normally found alone or in brief-
+ly-mated pairs.
+Flaysnake Poison: If the snake bites a victim, the sub-
+ject must immediately make a Physical saving
+throw. On a success, they resist the poison. On
+a failure, they gain 1d6 System Strain and must
+make another Physical save next round, continu-
+ing until they either succeed or die when their
+accumulated System Strain exceeds their Con-
+stitution.
+Ghoul Bear
+A loathsome cross between a black bear’s body and the
+fanged head of a human, ghoul bears possess a human
+degree of intelligence but never communicate except
+to perfectly mimic the cries and pleas of their past vic-
+tims. They eat carrion, but are notorious for prowling
+around the edges of enclaves, tempting in prey with
+stupefying cries for help.
+Ghoul bears usually hunt alone, but occasionally
+a family of 1d4 of them is encountered.
+Voice of the Grave: A ghoul bear’s voice is tuned with
+Highshine-laced subsonics. Each round, anyone
+within ten meters who hears it must make a Men-
+tal save; on a failure, they lose their next round’s
+Main Action. A victim will not notice this stupe-
+faction unless it’s pointed out by others.
+Glow Turtle
+These bad-tempered tortoises are as tall as a man at the
+peak of their glowing shells and are found anywhere
+they can get adequate vegetation to eat. Their bodies
+process the accumulated radioactivity and toxins into
+their shells, which glow bright blue in warning. Glow
+turtles are herbivores but will attack interlopers, and
+can move with surprising quickness over short dis-
+tances.
+Glow turtles are only ever encountered singly.
+Glowing Shell: Anyone who gets within 30 meters of
+the glow turtle must immediately make a radia-
+tion saving throw as per the rules on page 55.
+This check is repeated at one-round intervals.
+The shell retains its radioactive qualities for 1d6
+weeks after the turtle’s death.
+Gorehound
+These heirs of once-docile domestic pets have been
+warped into something more survivable by the High-
+shine. Now standing waist-high on a human, their
+large braincases betray the augmented intelligence
+they display. Some of them are as intelligent as a hu-
+man, though all of them are suffused with a malicious,
+hateful spirit of sadistic aggression towards non-ca-
+nines. They hunt with expert coordination and can
+fully understand human tricks and technology.
+Gorehounds are found in packs of 2d4 animals.
+Occasionally a very intelligent one bonds with a hu-
+man of similar cruel temperament, enjoying the left-
+overs of their “master” until it becomes convenient to
+eat him, too.
+Savage Pack: Each gorehound counts as two allies for
+all Swarm Attack support. They can easily track
+prey by scent, and will chase a victim for days if
+it piques their urge for cruelty.
+217
+Mutant Animals HD AC Atk Dmg TR Shock MV ML Skill Save
+Blinder Bird 1 14 +1 1d4 claw 1d8/x2 - 10m 7 +2 15+
+Flaysnake 1 13 +4 1d6+poison 1d6/x2 - 10m 11 +2 14+
+Ghoul Bear 4 15 +6x2 1d8 bite 1d8/x2 3/- 15m 9 +2 13+
+Glow Turtle 5 18 +6 1d10 bite 1d6/x2 - 15m 8 +2 13+
+Gorehound 2 13 +3 1d6+ bite 1d6/x2 - 15m 8 +1 14+
+Gut Weasel 3 15 +6x2 1d6+2 claw 1d10/x2 3/- 20m 9 +1 14+
+Heritor Bug 1 HP 13 +1 1d4 bite - - 10m 12 +1 15+
+Manscorpion 3 15 +5x3 1d6 claw/sting 1d6/x2 - 15m 9 +2 14+
+Redhorn 3 14 +3x4 1d6 claw/gore 1d6/x3 - 15m 8 +1 14+
+Whiskered Devil 3 17 +4 1d8+2 bite 1d6/x2 - 10m 8 +2 14+
+Gut Weasel
+These miniature mutated wolverines possess a vicious
+disposition, even though they seldom weigh more
+than five or six kilos. Their blinding speed and dia-
+mond-hard claws aid their preferred hunting tactic of
+aiming directly for the entrails of their prey.
+Gut weasels are usually solitary, though a mated
+pair can sometimes be unfortunately encountered.
+Rabid Speed: Gut weasels always win initiative in
+combat. Against Alert foes or others with auto-
+matic initiative wins, the dice are rolled normally.
+Heritor Bug
+Foot-long mutant cockroaches, these bugs are individ-
+ually feeble but are invariably found in vast swarms.
+Their acidic mandibles often leave terrible scars on
+those who survive their attacks.
+Heritor bug nests usually have 1d20x20 of the in-
+sects in the general vicinity.
+Ravenous Tide: Anyone brought to zero hit points by
+a heritor bug automatically suffers a Major Injury
+from the relentless gnawing, even if those rules
+aren’t usually used in the campaign.
+Manscorpion
+These horse-sized devils have the body of a scorpion
+mated to a humanoid torso and an insectile, mandibled
+head. They prefer to nest in human ruins and use their
+hardened climbing claws to ascend to high lairs. They
+do not appear to have any human kind of intelligence,
+and do not use tools in their hunts. They often ambush
+their prey, stinging them and then retreating until
+their poison has had time to work.
+Manscorpions hunt alone, but their nests will
+have 2d6 adults.
+Paralytic Poison: One of a manscorpion’s three attacks
+will be a sting; a victim struck by this must make
+a Physical saving throw immediately and another
+at the end of their next round. If they fail both,
+they are paralyzed for 1d10+10 minutes.
+Wallcrawler: They can traverse walls and ceilings as
+if they were flat ground.
+Redhorn
+These mutant cattle are a scourge on the dry pastures
+of the Albuquerque Death Zone. They are omnivo-
+rous with a preference for meat, impossible to domes-
+ticate, and a constant threat to the herds of the settled
+communities. They appear as emaciated bovines with
+curved horns, hidden fangs, and retractable hoof-
+claws. Some are clever enough to hide among herds of
+more ordinary cattle in order to avoid cowboy patrols.
+Redhorns hunt in small groups of 1d4, these small
+bands joining together nightly into herds of 2d6.
+Clawed Trample: A redhorn that uses the Charge ac-
+tion automatically inflicts 1d8 damage on a target
+of man-size or smaller unless the subject has hard
+cover within melee range. This damage is in ad-
+dition to any done by the charge itself.
+Whiskered Devil
+These beasts are mutant walruses who have grown
+finger-like manipulators along the edges of their flip-
+pers and a split trunk to form stubby legs. They can
+operate both on land and in the water, and are known
+for launching attacks on coastal communities and un-
+wary fishing boats. Some coastal waters are so infested
+with these creatures that sea travel is all but impossible.
+Most have on a feral degree of awareness, but a few
+communities of whiskered devils have been uplifted
+by Highshine and given a near-human intellect. These
+packs often become slavers, taking human thralls to
+work island crops or perform labors that clumsy flip-
+per-fingers cannot do.
+Whiskered devils usually swim in small groups
+of 1d4, but a raiding party will number 3d6 of them.
+Sea Devil: Whiskered devils can remain submerged
+for as long as an hour and have a Move of 20 me
+ters when swimming.
