@@ -9,7 +9,7 @@ from ulid import ULID
 
 from ingest.base import IngestResult
 from models.canonical import Attack, Creature, DeadLetter
-from validate.schema import coerce_int, default_hp, remap_attack_fields
+from validate.schema import coerce_int, default_hp
 
 log = structlog.get_logger()
 
@@ -19,32 +19,35 @@ def _new_id(prefix: str) -> str:
 
 
 def _parse_attack(raw: dict[str, Any], creature_id: str) -> Attack:
-    raw = remap_attack_fields(raw)
+    atk_bonus = raw.get("atk_bonus")
+    atk = f"+{atk_bonus}" if atk_bonus is not None else ""
 
-    shock_raw = raw.get("shock", "-") or "-"
-    shock_dmg, shock_ac = None, None
-    if shock_raw != "-":
-        parts = shock_raw.split("/")
-        try:
-            shock_dmg = int(parts[0])
-        except (ValueError, IndexError):
-            pass
+    short_r = raw.get("short_range")
+    long_r = raw.get("long_range")
+    range_str = f"{short_r}/{long_r}" if short_r is not None and long_r is not None else None
+
+    tr_mult_raw = raw.get("trauma_mult")
+    tr_mult = str(tr_mult_raw) if tr_mult_raw is not None else None
+
+    shock_value = raw.get("shock_value")
+    shock_threshold = raw.get("shock_threshold")
 
     return Attack(
         id=_new_id("atk"),
         creature_id=creature_id,
         name=raw.get("name", "attack"),
-        atk=raw.get("atk", ""),
-        dmg=raw.get("dmg", ""),
-        tr_die=raw.get("tr_die") or None,
-        tr_mult=raw.get("tr_mult") or None,
-        shock_dmg=shock_dmg,
-        shock_ac=shock_ac,
-        range_str=raw.get("range"),
-        mag=int(raw["mag"]) if raw.get("mag") is not None else None,
-        attr=raw.get("attr"),
-        tl=int(raw["tl"]) if raw.get("tl") is not None else None,
-        enc=int(raw["enc"]) if raw.get("enc") is not None else None,
+        atk=atk,
+        num_attacks=raw.get("num_attacks", 1),
+        dmg=raw.get("damage", ""),
+        tr_die=raw.get("trauma_die") or None,
+        tr_mult=tr_mult,
+        shock_dmg=shock_value if shock_value else None,
+        shock_ac=shock_threshold if shock_value else None,
+        range_str=range_str,
+        mag=raw.get("magazine"),
+        attr=raw.get("attribute"),
+        tl=raw.get("tech_level"),
+        enc=raw.get("encumbrance"),
     )
 
 
@@ -60,9 +63,10 @@ class BestiaryIngestor:
         for raw in raw_entries:
             name = raw.get("name", "<unnamed>")
             creature_id = _new_id("npc")
+            stats = raw.get("stats", {})
 
-            hd = coerce_int(raw.get("hd"), "hd", name)
-            ac = coerce_int(raw.get("ac"), "ac", name)
+            hd = coerce_int(stats.get("hd"), "hd", name)
+            ac = coerce_int(stats.get("ac"), "ac", name)
 
             if hd is None or ac is None:
                 log.error("missing_required_field", name=name, source=str(path))
@@ -76,7 +80,7 @@ class BestiaryIngestor:
                 result.errors += 1
                 continue
 
-            ml = coerce_int(raw.get("ml"), "ml", name)
+            ml = coerce_int(stats.get("ml"), "ml", name)
             if ml is None:
                 result.warnings += 1
 
@@ -88,10 +92,10 @@ class BestiaryIngestor:
                 hd=hd,
                 hp=default_hp(hd),
                 ac=ac,
-                mv=raw.get("mv"),
+                mv=str(stats["mv"]) if stats.get("mv") is not None else None,
                 ml=ml,
-                skill=raw.get("skill"),
-                save=raw.get("save"),
+                skill=str(stats["skill"]) if stats.get("skill") is not None else None,
+                save=str(stats["save"]) if stats.get("save") is not None else None,
                 attacks=attacks,
                 source_file=str(path),
             ))
