@@ -27,3 +27,6 @@ jobs:
 
       - name: Test
         run: uv run python -m pytest tests/ -v
+
+      - name: Build Docker image
+        run: docker build -t loreforge-worker:ci .
